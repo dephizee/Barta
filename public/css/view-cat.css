@@ -1,0 +1,149 @@
+.item_element{
+    box-shadow: 0 0 3px black;
+    color: black;
+    padding: 3px;
+    transition: 1s;
+    margin-bottom: 10px;
+  }
+  .item_name{
+    font-size: 1.7em;
+    font-weight: bold;
+    border-width: 0;
+    text-transform: uppercase;
+  }
+  .item_price{
+    font-family: sans-serif;
+
+    border-width: 0;
+  }
+  .cat_name{
+    font-family: monospace;
+    font-weight: bold;
+  }
+  .item_element:hover{
+    
+    background-color: #ff0028;
+    color: white
+  }
+.item_image{
+    max-width: 100%;
+  }
+  .cat_item_image_container{
+    background: red;
+    align-content: center;
+    padding: 0;
+    margin: 0;
+    width: 50px;
+  }
+  .cat_item_image{
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .mid_div_2{
+  	padding-left: 10%;
+  }
+  .details_header{
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 400;
+    font-family: monospace;
+    background: #061711;
+    color: #fff;
+  }
+  
+  .details{
+    color: black;
+
+    text-align: left;
+
+  }
+  .desc{
+    color: black;
+    text-align: center;
+  }
+  .swap{
+    background-color: #119911;
+    color:white;
+    text-align: center;
+    
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  .items{
+  	color: black;
+  	border: 1px solid #ff0028;
+  	padding: 20px;
+  	margin: 0;
+
+  	margin-bottom: 10px;
+  	transition: 1s;
+  }
+  .cat_item_name{
+    border-left: 2px solid #119911;
+    margin-top: 5px;
+    font-family: monospace;
+    color: black;
+    font-weight: bold;
+    padding: 20px;
+    font-size: 1.3em;
+  }
+  .items_view{
+    background: #119911;
+    font-family: monospace;
+    padding: 20px;
+    font-size: 1.3em;
+    
+  }
+  .items_view_offer{
+    border: 0px solid #ff0028;
+    background: green;
+    font-family: monospace;
+    color: white;
+    font-weight: 300;
+  }
+  .items:hover {
+  	/*border: 0px solid #fff;*/
+  }
+
+  .main_detail{
+    border: 1px solid #061711;
+    color: black;
+    text-align: center;
+
+    }
+    .main_detail div{
+    border-bottom: 1px solid #061711;
+    border-left: 1px solid #061711;
+    }
+    .main_detail{
+      margin-bottom: 4px;
+    }
+    .main_detail span{
+      font-size: 1.5em;
+    font-family: monospace;
+
+    }
+  @media only screen and (max-width: 768px){
+     .item_element, .details_header{
+	    width: 100%;
+	    margin: 0;
+
+	  } 
+    .details_header{
+      font-size: 1.5em;
+    }
+	  .mid_div_2{
+			padding-left: 0px;
+		}
+    .cat_item_name{
+      width: 70%;
+      margin-left: 0px;
+    }
+    .items_view{
+        width: 30%;
+        margin-left: 0px;
+        font-size: 0.8em;
+    }
+    }
